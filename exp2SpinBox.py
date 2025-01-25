@@ -26,7 +26,6 @@ def VChanged():
             print("Valeur erronée")
     else:
         print("Merci d'entrer une valeur valide de prix")
-
 spinbox.valueChanged.connect(VChanged)
 
 hbox.addWidget(label)
